@@ -1,0 +1,51 @@
+
+.app {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  height: 300px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.post {
+  height: 200px;
+  width: 400px;
+  position: relative;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-around;
+  border: 2px solid black;
+  margin: auto;
+}
+
+.user {
+  height: 40px;
+  width: 100px;
+  justify-content: space-around;
+  border: 2px solid black;
+}
+
+.users {
+  height: 40px;
+  width: 100px;
+  background: white;
+  justify-content: center;
+  box-align: flex-end;
+}
+
+.bouton {
+  height: 30px;
+  width: 90px;
+  justify-content: space-around;
+  border: 2px solid black;
+}
